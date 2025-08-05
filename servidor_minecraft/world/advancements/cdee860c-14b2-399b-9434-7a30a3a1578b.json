@@ -8116,5 +8116,11 @@
     },
     "done": true
   },
+  "tombstone:adventure/create_familiar_receptacle": {
+    "criteria": {
+      "has_receptacle_of_familiar": "2025-08-05 20:56:15 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
