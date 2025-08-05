@@ -880,3 +880,13 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'createo
 [05Aug2025 20:10:31.265] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved wrongly! 0.4238507434765779
 [05Aug2025 20:10:31.345] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved wrongly! 0.35102565890429105
 [05Aug2025 20:10:31.374] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved wrongly! 0.802677931494145
+[05Aug2025 20:12:34.526] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Darkiumoun moved too quickly! 2.6726088112959587,-9.793973731353162,-5.308006361353364
+[05Aug2025 20:14:31.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Made Darkiumoun a server operator
+[05Aug2025 20:14:39.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Darkiumoun: Teleported Color_duty to Darkiumoun]
+[05Aug2025 20:15:54.099] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Darkiumoun has made the advancement [Hot Stuff]
+[05Aug2025 20:20:04.570] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Cars0325[/100.69.98.15:57097] logged in with entity id 10366 at (929.4254516774532, 107.0625, -4031.517917683432)
+[05Aug2025 20:20:04.579] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Cars0325 joined the game
+[05Aug2025 20:20:04.587] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Player Cars0325 just logged in with id cdee860c-14b2-399b-9434-7a30a3a1578b
+[05Aug2025 20:20:04.592] [ForkJoinPool-3-worker-4/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loading local skin for player Cars0325[cdee860c-14b2-399b-9434-7a30a3a1578b]
+[05Aug2025 20:20:04.790] [ForkJoinPool-3-worker-4/INFO] [me.edoren.skin_changer.common.NetworkUtils/]: File https://playerdb.co/api/player/minecraft/Cars0325 downloaded
+[05Aug2025 20:24:20.709] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2019ms or 40 ticks behind
