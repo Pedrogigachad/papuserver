@@ -1,0 +1,882 @@
+[05Aug2025 19:51:09.609] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[05Aug2025 19:51:09.613] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.15 by Ubuntu; OS Linux arch amd64 version 6.8.0-1030-azure
+[05Aug2025 19:51:10.931] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[05Aug2025 19:51:10.987] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/papuserver/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[05Aug2025 19:51:11.366] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/papuserver/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[05Aug2025 19:51:11.367] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/papuserver/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[05Aug2025 19:51:11.368] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/papuserver/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[05Aug2025 19:51:11.369] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/papuserver/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[05Aug2025 19:51:11.648] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 13 dependencies adding them to mods collection
+[05Aug2025 19:51:14.641] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[05Aug2025 19:51:14.700] [main/ERROR] [mixin/]: Mixin config azurelib.mixins.json does not specify "minVersion" property
+[05Aug2025 19:51:14.702] [main/ERROR] [mixin/]: Mixin config azurelib.forge.mixins.json does not specify "minVersion" property
+[05Aug2025 19:51:14.790] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[05Aug2025 19:51:14.833] [main/WARN] [mixin/]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
+[05Aug2025 19:51:15.004] [main/WARN] [mixin/]: Reference map 'cgs.mixin-refmap.json' for cgs.mixin.json could not be read. If this is a development environment you can ignore this message
+[05Aug2025 19:51:16.288] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/GameNarrator (java.lang.ClassNotFoundException: net.minecraft.client.GameNarrator)
+[05Aug2025 19:51:16.288] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.GameNarrator was not found ntgl.mixin.json:common.NarratorMixin
+[05Aug2025 19:51:17.322] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[05Aug2025 19:51:25.383] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[05Aug2025 19:51:25.387] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/42a7ad70b1cc371599a0eff744096b8a
+[05Aug2025 19:51:25.389] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/74a5e841822a3a87854ae896a33430d6
+[05Aug2025 19:51:25.397] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/eb3d1e2748533430848cadf0f37c7e9c
+[05Aug2025 19:51:25.398] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/91c8520f19f93b3e8b6a727568e194ab
+[05Aug2025 19:51:25.399] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/8c2784d778293fd482ed84b8aa5fedb9
+[05Aug2025 19:51:25.412] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/ea038224ea783d40b2863f52239e2604
+[05Aug2025 19:51:25.413] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id artifacts:networking_channel/97ad64b7ecaf33209991c4f031501a58
+[05Aug2025 19:51:25.716] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[05Aug2025 19:51:25.716] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[05Aug2025 19:51:25.791] [modloading-worker-0/INFO] [azurelib/FileWatching]: Registered azurelib config for auto-sync function
+[05Aug2025 19:51:26.022] [modloading-worker-0/INFO] [com.simibubi.create.Create/]: Create 6.0.6 initializing! Commit hash: 338bfa0aec952fa51656e8f61bd621ca9b3b2e00
+[05Aug2025 19:51:26.537] [modloading-worker-0/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[05Aug2025 19:51:26.616] [modloading-worker-0/INFO] [be.florens.expandability.ExpandAbility/]: ExpandAbility here, who dis?
+[05Aug2025 19:51:41.809] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.20.1
+[05Aug2025 19:51:41.867] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id skin_changer:mbechannel/c6416779da663f62836ae72f0509aa3e
+[05Aug2025 19:51:41.873] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id skin_changer:mbechannel/8489ea5ae87e3a6199b65ea21ca8f8c8
+[05Aug2025 19:51:41.954] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:aiming for minecraft:player
+[05Aug2025 19:51:41.954] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:reloading for minecraft:player
+[05Aug2025 19:51:41.954] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:shooting for minecraft:player
+[05Aug2025 19:51:41.955] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key jeg:burst_count for minecraft:player
+[05Aug2025 19:51:42.043] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key ntgl:aiming for minecraft:living_entity
+[05Aug2025 19:51:42.044] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key ntgl:shooting_right for minecraft:living_entity
+[05Aug2025 19:51:42.044] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key ntgl:shooting_left for minecraft:living_entity
+[05Aug2025 19:51:42.044] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key ntgl:reloading_right for minecraft:living_entity
+[05Aug2025 19:51:42.044] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key ntgl:reloading_left for minecraft:living_entity
+[05Aug2025 19:51:42.044] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key ntgl:charging_right for minecraft:living_entity
+[05Aug2025 19:51:42.044] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key ntgl:charging_left for minecraft:living_entity
+[05Aug2025 19:51:42.044] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key ntgl:reload_start for minecraft:living_entity
+[05Aug2025 19:51:42.045] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key ntgl:reload_end for minecraft:living_entity
+[05Aug2025 19:51:42.045] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key ntgl:equip_right for minecraft:living_entity
+[05Aug2025 19:51:42.045] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key ntgl:equip_left for minecraft:living_entity
+[05Aug2025 19:51:42.053] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[05Aug2025 19:51:42.053] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[05Aug2025 19:51:42.054] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 1 for type OVERWORLD
+[05Aug2025 19:51:42.054] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 2 for type OVERWORLD
+[05Aug2025 19:51:42.054] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 3 for type OVERWORLD
+[05Aug2025 19:51:42.054] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 1 for type NETHER
+[05Aug2025 19:51:42.054] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 2 for type NETHER
+[05Aug2025 19:51:42.154] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[05Aug2025 19:51:42.155] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[05Aug2025 19:51:42.157] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[05Aug2025 19:51:42.157] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[05Aug2025 19:51:42.172] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 12.0.0.4 Target: 12.0.0.4
+[05Aug2025 19:51:42.173] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [badmobs] Starting version check at https://updates.blamejared.com/get?n=badmobs&gv=1.20.1
+[05Aug2025 19:51:42.194] [main/INFO] [citadel/]: adding citadel surface rules via terrablender...
+[05Aug2025 19:51:42.195] [main/INFO] [citadel/]: Added 0 vanilla biome surface rule types via terrablender
+[05Aug2025 19:51:42.195] [main/INFO] [citadel/]: Added 0 modded biome surface rule types via terrablender
+[05Aug2025 19:51:42.272] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [badmobs] Found status: BETA Current: 19.0.4 Target: 19.0.4
+[05Aug2025 19:51:42.272] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_epicterrain] Starting version check at https://api.modrinth.com/updates/7qSJGSHp/forge_updates.json
+[05Aug2025 19:51:42.416] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [mr_epicterrain] Found status: BETA_OUTDATED Current: 0.1.4 Target: 0.2.5+mod
+[05Aug2025 19:51:42.417] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[05Aug2025 19:51:42.720] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.4.0
+[05Aug2025 19:51:42.720] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Starting version check at https://www.github.com/Geforce132/SecurityCraft/raw/master/Updates/Forge.json
+[05Aug2025 19:51:42.941] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [securitycraft] Found status: UP_TO_DATE Current: 1.10.0.1 Target: null
+[05Aug2025 19:51:42.944] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Starting version check at https://raw.githubusercontent.com/Corail31/tombstone_lite/master/update.json
+[05Aug2025 19:51:42.953] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [tombstone] Found status: OUTDATED Current: 9.0.3 Target: 9.0.6
+[05Aug2025 19:51:42.953] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ad_astra] Starting version check at https://api.modrinth.com/updates/3ufwT9JF/forge_updates.json
+[05Aug2025 19:51:43.032] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ad_astra] Found status: UP_TO_DATE Current: 1.15.20 Target: null
+[05Aug2025 19:51:47.156] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[05Aug2025 19:51:50.581] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/papuserver/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23193!/assets/.mcassetsroot' uses unexpected schema
+[05Aug2025 19:51:50.581] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/papuserver/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23193!/data/.mcassetsroot' uses unexpected schema
+[05Aug2025 19:51:50.755] [main/INFO] [com.simibubi.create.Create/]: Created 415 recipes which will be injected into the game
+[05Aug2025 19:51:50.771] [main/INFO] [com.simibubi.create.Create/]: Created 25 tags which will be injected into the game
+[05Aug2025 19:51:51.693] [main/WARN] [net.minecraft.world.level.levelgen.DensityFunctions$TwoArgumentSimpleFunction/]: Creating a MIN function between two non-overlapping inputs: HolderHolder[function=Direct{Constant[value=0.15]}] and HolderHolder[function=Direct{Ap2[type=MUL, argument1=HolderHolder[function=Direct{Constant[value=-2.25]}], argument2=HolderHolder[function=Direct{Ap2[type=ADD, argument1=HolderHolder[function=Direct{Constant[value=0.68]}], argument2=HolderHolder[function=Reference{ResourceKey[minecraft:worldgen/density_function / minecraft:overworld/ridges]=Ap2[type=MUL, argument1=HolderHolder[function=Reference{ResourceKey[minecraft:worldgen/density_function / etn:overworld/ridge/1]=Marker[type=FlatCache, wrapped=HolderHolder[function=Direct{Ap2[type=MUL, argument1=HolderHolder[function=Direct{Mapped[type=ABS, input=HolderHolder[function=Direct{Noise[noise=NoiseHolder[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / etn:r/1]=NoiseParameters[firstOctave=-13, amplitudes=[1.0, 2.0, 1.5, 1.0, 1.0]]}, noise=null], xzScale=1.0, yScale=0.0]}], minValue=0.0, maxValue=2.0]}], argument2=HolderHolder[function=Direct{Constant[value=1.0]}], minValue=0.0, maxValue=2.0]}]]}], argument2=HolderHolder[function=Direct{Constant[value=1.0]}], minValue=0.0, maxValue=2.0]}], minValue=0.68, maxValue=2.68]}], minValue=-6.03, maxValue=-1.53]}]
+[05Aug2025 19:51:51.694] [main/WARN] [net.minecraft.world.level.levelgen.DensityFunctions$TwoArgumentSimpleFunction/]: Creating a MAX function between two non-overlapping inputs: HolderHolder[function=Direct{Constant[value=-0.12]}] and HolderHolder[function=Direct{Ap2[type=MUL, argument1=HolderHolder[function=Direct{Constant[value=1.2]}], argument2=HolderHolder[function=Direct{Ap2[type=ADD, argument1=HolderHolder[function=Direct{Constant[value=0.72]}], argument2=HolderHolder[function=Reference{ResourceKey[minecraft:worldgen/density_function / minecraft:overworld/ridges]=Ap2[type=MUL, argument1=HolderHolder[function=Reference{ResourceKey[minecraft:worldgen/density_function / etn:overworld/ridge/1]=Marker[type=FlatCache, wrapped=HolderHolder[function=Direct{Ap2[type=MUL, argument1=HolderHolder[function=Direct{Mapped[type=ABS, input=HolderHolder[function=Direct{Noise[noise=NoiseHolder[noiseData=Reference{ResourceKey[minecraft:worldgen/noise / etn:r/1]=NoiseParameters[firstOctave=-13, amplitudes=[1.0, 2.0, 1.5, 1.0, 1.0]]}, noise=null], xzScale=1.0, yScale=0.0]}], minValue=0.0, maxValue=2.0]}], argument2=HolderHolder[function=Direct{Constant[value=1.0]}], minValue=0.0, maxValue=2.0]}]]}], argument2=HolderHolder[function=Direct{Constant[value=1.0]}], minValue=0.0, maxValue=2.0]}], minValue=0.72, maxValue=2.7199999999999998]}], minValue=0.864, maxValue=3.264]}]
+[05Aug2025 19:51:52.336] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[05Aug2025 19:51:52.421] [Worker-Main-3/WARN] [artifacts.Artifacts/]: Tag entries for curios:tags/items/magic_book.json cleared by tombstone-1.20.1-9.0.3.jar
+[05Aug2025 19:51:52.954] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:abstract_gun'
+[05Aug2025 19:51:52.958] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:assault_rifle'
+[05Aug2025 19:51:52.961] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:atlantean_spear'
+[05Aug2025 19:51:52.963] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:blossom_rifle'
+[05Aug2025 19:51:52.965] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:bolt_action_rifle'
+[05Aug2025 19:51:52.966] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:burst_rifle'
+[05Aug2025 19:51:52.967] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:combat_pistol'
+[05Aug2025 19:51:52.981] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:combat_rifle'
+[05Aug2025 19:51:52.983] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:compound_bow'
+[05Aug2025 19:51:52.984] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:custom_smg'
+[05Aug2025 19:51:52.985] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:double_barrel_shotgun'
+[05Aug2025 19:51:52.987] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:finger_gun'
+[05Aug2025 19:51:52.991] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:flamethrower'
+[05Aug2025 19:51:52.998] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:flare_gun'
+[05Aug2025 19:51:53.001] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:grenade_launcher'
+[05Aug2025 19:51:53.012] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:hollenfire_mk2'
+[05Aug2025 19:51:53.017] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:holy_shotgun'
+[05Aug2025 19:51:53.020] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:hypersonic_cannon'
+[05Aug2025 19:51:53.022] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:infantry_rifle'
+[05Aug2025 19:51:53.025] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:light_machine_gun'
+[05Aug2025 19:51:53.027] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:minigun'
+[05Aug2025 19:51:53.027] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:minigun'
+[05Aug2025 19:51:53.031] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:primitive_bow'
+[05Aug2025 19:51:53.032] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:pump_shotgun'
+[05Aug2025 19:51:53.034] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:repeating_shotgun'
+[05Aug2025 19:51:53.040] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:revolver'
+[05Aug2025 19:51:53.042] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:revolver'
+[05Aug2025 19:51:53.042] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:revolver'
+[05Aug2025 19:51:53.042] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:revolver'
+[05Aug2025 19:51:53.044] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:rocket_launcher'
+[05Aug2025 19:51:53.045] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:semi_auto_pistol'
+[05Aug2025 19:51:53.047] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:semi_auto_rifle'
+[05Aug2025 19:51:53.051] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:service_rifle'
+[05Aug2025 19:51:53.053] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:soulhunter_mk2'
+[05Aug2025 19:51:53.055] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:subsonic_rifle'
+[05Aug2025 19:51:53.057] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:supersonic_shotgun'
+[05Aug2025 19:51:53.059] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:typhoonee'
+[05Aug2025 19:51:53.061] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg:waterpipe_shotgun'
+[05Aug2025 19:51:53.063] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg_cfg:vindicator_smg'
+[05Aug2025 19:51:53.064] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg_cfg:primitive_blowpipe'
+[05Aug2025 19:51:53.065] [Worker-Main-2/INFO] [jeg/]: Registered gun 'jeg_cfg:fire_sweeper'
+[05Aug2025 19:51:53.151] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:decocraft:blocks/laptop_closed_pink
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'decocraft:laptop'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23198!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23198!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[05Aug2025 19:51:53.215] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:decocraft:blocks/laptop_pink
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'decocraft:laptop'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23198!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23198!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[05Aug2025 19:51:53.305] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:decocraft:blocks/laptop_closed_black
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'decocraft:laptop'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23198!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23198!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[05Aug2025 19:51:53.356] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:decocraft:blocks/laptop_black
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'decocraft:laptop'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23198!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23198!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[05Aug2025 19:51:53.378] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:decocraft:blocks/laptop_closed_silver
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'decocraft:laptop'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23198!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23198!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[05Aug2025 19:51:53.517] [Worker-Main-3/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:decocraft:blocks/laptop_silver
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'decocraft:laptop'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:145) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:153) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:471) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:192) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:189) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:463) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:481) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:294) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:291) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar%2372!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar%2372!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:871) ~[forge-1.20.1-47.3.7-universal.jar%23198!/:?]
+	at net.minecraftforge.common.ForgeHooks.lambda$getLootTableDeserializer$3(ForgeHooks.java:848) ~[forge-1.20.1-47.3.7-universal.jar%23198!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataType.deserialize(LootDataType.java:45) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.lambda$scheduleElementParse$4(LootDataManager.java:56) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1421) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootDataManager.m_278660_(LootDataManager.java:55) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
+[05Aug2025 19:51:53.592] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Found loot table element validation problem in {loot_tables:alexsmobs:gameplay/seal_reward}.pools[0].entries[0]->{minecraft:gameplay/fishing/junk}.pools[1].condition[1]: Parameters [<parameter minecraft:origin>] are not provided in this context
+[05Aug2025 19:51:53.716] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe cgs:drilling/lead
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'createoreexcavation:drilling'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[05Aug2025 19:51:53.718] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe cgs:ore_vein_type/lead
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'createoreexcavation:vein'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:783) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:772) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at net.minecraft.server.Main.main(Main.java:166) ~[server-1.20.1-20230612.114412-srg.jar%23193!/:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.3.7.jar%2369!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2355!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[05Aug2025 19:51:53.736] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 38 recipes
+[05Aug2025 19:51:53.897] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4771 advancements
+[05Aug2025 19:51:53.925] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 13 curio slots
+[05Aug2025 19:51:53.931] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio entities
+[05Aug2025 19:51:56.596] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[05Aug2025 19:51:56.596] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[05Aug2025 19:51:56.597] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[05Aug2025 19:51:56.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[05Aug2025 19:51:56.661] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[05Aug2025 19:51:56.695] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[05Aug2025 19:51:56.786] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[05Aug2025 19:51:56.786] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[05Aug2025 19:51:56.786] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[05Aug2025 19:51:56.787] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[05Aug2025 19:51:57.065] [Server thread/INFO] [Framework/]: Loading server configs...
+[05Aug2025 19:51:57.372] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[05Aug2025 19:51:57.373] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[05Aug2025 19:51:57.373] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[05Aug2025 19:51:58.606] [Server thread/INFO] [jeg/]: Registered the following Factions: [night_of_the_undead|1|minecraft:zombie,minecraft:zombie_villager,minecraft:husk|jeg:custom_smg,jeg:waterpipe_shotgun|jeg:revolver|jeg:double_barrel_shotgun, the_rattlers|2|minecraft:skeleton,minecraft:stray|jeg:custom_smg|jeg:semi_auto_rifle|jeg:bolt_action_rifle,jeg:semi_auto_rifle, nosy_business|3|minecraft:pillager,minecraft:vindicator|jeg:pump_shotgun|jeg:semi_auto_rifle,jeg:assault_rifle|jeg:repeating_shotgun,jeg:service_rifle, bad_piggies|2|minecraft:piglin,minecraft:piglin_brute|jeg:double_barrel_shotgun,jeg:waterpipe_shotgun|jeg:assault_rifle,jeg:semi_auto_rifle|jeg:hollenfire_mk2, hell_hogs|3|minecraft:zombified_piglin,minecraft:wither_skeleton|jeg:custom_smg,jeg:waterpipe_shotgun,jeg:double_barrel_shotgun|jeg:assault_rifle,jeg:semi_auto_rifle|jeg:soulhunter_mk2, lost_souls|3|jeg:ghoul|jeg:waterpipe_shotgun,jeg:revolver|jeg:custom_smg,jeg:assault_rifle,jeg:semi_auto_rifle|jeg:blossom_rifle,jeg:service_rifle,jeg:infantry_rifle]
+[05Aug2025 19:52:03.644] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[05Aug2025 19:52:06.718] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Aug2025 19:52:06.950] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Aug2025 19:52:06.953] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Aug2025 19:52:06.962] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Aug2025 19:52:06.984] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Aug2025 19:52:07.033] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Aug2025 19:52:07.042] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Aug2025 19:52:07.156] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Aug2025 19:52:07.405] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [16, -17], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.406] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [16, -17], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.406] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [16, -17], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.407] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [16, -17], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.409] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [16, -16], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.409] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [16, -16], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.410] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [16, -16], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.410] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [16, -16], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.412] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [16, -15], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.412] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [16, -15], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.413] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [16, -15], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.414] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [16, -15], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.416] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [16, -14], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.416] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [16, -14], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.417] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [16, -14], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.417] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [16, -14], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.419] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [16, -13], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.420] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [16, -13], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.420] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [16, -13], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.421] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [16, -13], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.422] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [16, -12], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.422] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [16, -12], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.423] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [16, -12], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.423] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [16, -12], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.425] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [16, -11], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.426] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [16, -11], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.426] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [16, -11], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.427] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [16, -11], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.467] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [16, -18], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.468] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [16, -18], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.469] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [16, -18], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.470] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [16, -18], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.473] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [17, -18], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.474] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [17, -18], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.474] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [17, -18], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.475] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [17, -18], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.477] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [17, -17], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.477] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [17, -17], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.478] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [17, -17], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.479] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [17, -17], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.481] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [17, -16], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.482] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [17, -16], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.482] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [17, -16], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.483] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [17, -16], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.485] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [17, -15], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.485] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [17, -15], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.486] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [17, -15], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.487] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [17, -15], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.489] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [17, -14], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.490] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [17, -14], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.490] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [17, -14], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.491] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [17, -14], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.493] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [17, -13], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.493] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [17, -13], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.494] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [17, -13], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.494] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [17, -13], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.496] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [17, -12], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.497] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [17, -12], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.498] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [17, -12], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.499] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [17, -12], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.501] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [17, -11], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.501] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [17, -11], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.502] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [17, -11], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.502] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [17, -11], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.508] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [18, -18], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.509] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [18, -18], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.510] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [18, -18], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.511] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [18, -18], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.513] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [18, -17], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.514] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [18, -17], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.515] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [18, -17], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.516] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [18, -17], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.519] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [18, -15], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.520] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [18, -15], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.521] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [18, -15], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.521] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [18, -15], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.524] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [18, -14], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.524] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [18, -14], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.525] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [18, -14], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.526] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [18, -14], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.528] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [18, -13], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.529] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [18, -13], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.530] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [18, -13], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.531] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [18, -13], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.535] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [18, -8], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.536] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [18, -8], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.537] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [18, -8], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.538] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [18, -8], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.543] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [19, -14], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.544] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [19, -14], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.545] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [19, -14], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.545] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [19, -14], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.611] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [19, -13], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.611] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [19, -13], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.612] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [19, -13], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.612] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [19, -13], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.614] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [19, -11], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.614] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [19, -11], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.615] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [19, -11], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.616] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [19, -11], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.620] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [19, -8], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.621] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [19, -8], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.622] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [19, -8], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.622] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [19, -8], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.648] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Aug2025 19:52:07.659] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [16, -19], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.660] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [16, -19], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.660] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [16, -19], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.661] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [16, -19], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.671] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [20, -12], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.671] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [20, -12], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.672] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [20, -12], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.672] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [20, -12], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.674] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [20, -11], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.674] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [20, -11], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.675] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [20, -11], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.675] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [20, -11], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.678] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [20, -9], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.678] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [20, -9], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.679] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [20, -9], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.680] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [20, -9], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.681] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [20, -8], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.682] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [20, -8], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.682] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [20, -8], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.682] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [20, -8], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.719] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [18, -20], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.719] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [18, -20], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.720] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [18, -20], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.720] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [18, -20], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.723] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [19, -20], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.723] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [19, -20], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.724] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [19, -20], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.725] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [19, -20], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.729] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [21, -18], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.729] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [21, -18], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.730] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [21, -18], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.730] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [21, -18], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.732] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [21, -17], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.733] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [21, -17], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.733] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [21, -17], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.734] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [21, -17], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.736] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [21, -16], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.736] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [21, -16], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.736] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [21, -16], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.737] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [21, -16], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.742] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [21, -12], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.743] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [21, -12], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.744] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [21, -12], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.744] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [21, -12], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.746] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [21, -10], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.747] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [21, -10], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.748] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [21, -10], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.749] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [21, -10], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.751] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [21, -9], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.751] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [21, -9], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.752] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [21, -9], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.752] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [21, -9], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.755] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [21, -8], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.756] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [21, -8], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.756] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [21, -8], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:07.757] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [21, -8], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.149] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Aug2025 19:52:08.287] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [17, -21], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.287] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [17, -21], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.287] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [17, -21], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.288] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [17, -21], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.289] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [17, -22], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.290] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [17, -22], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.290] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [17, -22], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.290] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [17, -22], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.291] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [18, -22], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.292] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [18, -22], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.292] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [18, -22], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.293] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [18, -22], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.295] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [18, -21], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.295] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [18, -21], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.295] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [18, -21], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.296] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [18, -21], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.298] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [19, -22], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.298] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [19, -22], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.298] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [19, -22], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.299] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [19, -22], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.300] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [19, -21], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.301] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [19, -21], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.301] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [19, -21], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.301] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [19, -21], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.558] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [20, -22], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.558] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [20, -22], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.558] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [20, -22], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.559] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [20, -22], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.561] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [21, -22], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.561] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [21, -22], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.562] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [21, -22], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.562] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [21, -22], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.567] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [22, -19], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.567] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [22, -19], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.568] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [22, -19], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.568] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [22, -19], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.570] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [22, -18], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.570] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [22, -18], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.570] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [22, -18], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.571] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [22, -18], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.572] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [22, -17], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.572] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [22, -17], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.573] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [22, -17], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.573] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [22, -17], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.574] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [22, -16], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.575] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [22, -16], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.575] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [22, -16], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.575] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [22, -16], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.578] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [22, -13], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.578] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [22, -13], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.579] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [22, -13], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.579] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [22, -13], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.581] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [22, -12], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.581] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [22, -12], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.581] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [22, -12], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.582] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [22, -12], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.584] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [22, -10], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.584] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [22, -10], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.584] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [22, -10], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.585] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [22, -10], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.586] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [22, -9], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.587] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [22, -9], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.587] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [22, -9], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.588] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [22, -9], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.591] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [22, -8], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.591] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [22, -8], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.591] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [22, -8], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.592] [Server thread/WARN] [net.minecraft.world.level.levelgen.Heightmap/]: Ignoring heightmap data for chunk [22, -8], size does not match; expected: 43, got: 37
+[05Aug2025 19:52:08.647] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[05Aug2025 19:52:09.145] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 3%
+[05Aug2025 19:52:09.645] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 58%
+[05Aug2025 19:52:10.004] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6360 ms
+[05Aug2025 19:52:10.005] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (13.205s)! For help, type "help"
+[05Aug2025 19:52:10.073] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[05Aug2025 19:52:10.084] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[05Aug2025 19:52:10.085] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[05Aug2025 19:53:18.946] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@3bdf6b4d[id=<null>,name=Darkiumoun,properties={},legacy=false] (/100.123.78.85:63470) lost connection: Disconnected
+[05Aug2025 19:53:30.241] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@4ef40621[id=<null>,name=Darkiumoun,properties={},legacy=false] (/100.123.78.85:63475) lost connection: Disconnected
+[05Aug2025 19:53:38.041] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@6a5f548c[id=<null>,name=Darkiumoun,properties={},legacy=false] (/100.123.78.85:63478) lost connection: Disconnected
+[05Aug2025 19:53:44.924] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Darkiumoun[/100.123.78.85:63483] logged in with entity id 762 at (929.8065768880343, 107.0625, -4029.951479858326)
+[05Aug2025 19:53:44.991] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Darkiumoun joined the game
+[05Aug2025 19:53:45.060] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Player Darkiumoun just logged in with id c4e857d5-16b0-386e-b080-ca2361fd0700
+[05Aug2025 19:53:45.066] [ForkJoinPool-3-worker-1/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loading local skin for player Darkiumoun[c4e857d5-16b0-386e-b080-ca2361fd0700]
+[05Aug2025 19:53:45.070] [ForkJoinPool-3-worker-1/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loading local cape for player Darkiumoun[c4e857d5-16b0-386e-b080-ca2361fd0700]
+[05Aug2025 19:53:48.705] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3865ms or 77 ticks behind
+[05Aug2025 19:54:45.149] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Darkiumoun lost connection: Timed out
+[05Aug2025 19:54:45.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Darkiumoun left the game
+[05Aug2025 19:54:45.150] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Removing session data for player Darkiumoun[c4e857d5-16b0-386e-b080-ca2361fd0700]
+[05Aug2025 20:00:15.078] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Color_duty[/100.104.248.125:64955] logged in with entity id 1122 at (1981.986565666376, 128.0, -4100.020883046372)
+[05Aug2025 20:00:15.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Color_duty joined the game
+[05Aug2025 20:00:15.120] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Player Color_duty just logged in with id 65283ae9-2d8c-306b-ace2-be67c141c444
+[05Aug2025 20:00:15.125] [ForkJoinPool-3-worker-2/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loading local skin for player Color_duty[65283ae9-2d8c-306b-ace2-be67c141c444]
+[05Aug2025 20:00:15.620] [ForkJoinPool-3-worker-2/INFO] [me.edoren.skin_changer.common.NetworkUtils/]: Error downloading file https://playerdb.co/api/player/minecraft/Color_duty
+[05Aug2025 20:00:17.333] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2293ms or 45 ticks behind
+[05Aug2025 20:00:57.083] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Darkiumoun[/100.123.78.85:63564] logged in with entity id 1417 at (966.0836183717773, 106.0, -4048.8790384423314)
+[05Aug2025 20:00:57.094] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Darkiumoun joined the game
+[05Aug2025 20:00:57.106] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Player Darkiumoun just logged in with id c4e857d5-16b0-386e-b080-ca2361fd0700
+[05Aug2025 20:00:57.107] [ForkJoinPool-3-worker-2/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loading local skin for player Darkiumoun[c4e857d5-16b0-386e-b080-ca2361fd0700]
+[05Aug2025 20:00:57.107] [ForkJoinPool-3-worker-2/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loading local cape for player Darkiumoun[c4e857d5-16b0-386e-b080-ca2361fd0700]
+[05Aug2025 20:01:17.641] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2651ms or 53 ticks behind
+[05Aug2025 20:02:03.512] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Darkiumoun lost connection: Disconnected
+[05Aug2025 20:02:03.633] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Darkiumoun left the game
+[05Aug2025 20:02:03.633] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Removing session data for player Darkiumoun[c4e857d5-16b0-386e-b080-ca2361fd0700]
+[05Aug2025 20:03:25.718] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Darkiumoun[/100.123.78.85:63787] logged in with entity id 2524 at (932.3453163160517, 114.0, -4033.8843951195436)
+[05Aug2025 20:03:25.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Darkiumoun joined the game
+[05Aug2025 20:03:25.737] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Player Darkiumoun just logged in with id c4e857d5-16b0-386e-b080-ca2361fd0700
+[05Aug2025 20:03:25.739] [ForkJoinPool-3-worker-3/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loading local skin for player Darkiumoun[c4e857d5-16b0-386e-b080-ca2361fd0700]
+[05Aug2025 20:03:25.740] [ForkJoinPool-3-worker-3/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loading local cape for player Darkiumoun[c4e857d5-16b0-386e-b080-ca2361fd0700]
+[05Aug2025 20:06:18.646] [Worker-Main-31/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=512, y=-40, z=-4824}
+[05Aug2025 20:07:24.264] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved wrongly! 0.410473872670309
+[05Aug2025 20:07:24.337] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved wrongly! 1.2781514751143277
+[05Aug2025 20:07:24.365] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved wrongly! 2.1895896205104464
+[05Aug2025 20:07:24.413] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved wrongly! 0.8818744624488772
+[05Aug2025 20:07:24.476] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved wrongly! 1.8321340106218713
+[05Aug2025 20:07:24.511] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved wrongly! 0.9026470210594653
+[05Aug2025 20:07:24.561] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved wrongly! 0.9030188778560841
+[05Aug2025 20:07:24.611] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved wrongly! 0.9085944262933481
+[05Aug2025 20:07:24.662] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved wrongly! 0.9062012158182142
+[05Aug2025 20:07:24.710] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved wrongly! 0.9102972318879665
+[05Aug2025 20:07:24.769] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved wrongly! 0.9071123531416561
+[05Aug2025 20:07:24.825] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved wrongly! 0.9107847633035817
+[05Aug2025 20:07:24.863] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved wrongly! 0.907373221481862
+[05Aug2025 20:07:24.914] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved wrongly! 0.6317186450237386
+[05Aug2025 20:07:39.114] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 10.277137158860342,0.0,0.507328506129852
+[05Aug2025 20:07:39.248] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 10.285044299153697,0.0,0.5059710068476306
+[05Aug2025 20:07:39.249] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 12.342839868111241,0.0,0.6070301458512404
+[05Aug2025 20:07:39.249] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 14.400828621813616,0.0,0.7080561188631691
+[05Aug2025 20:07:39.249] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 16.458987764460744,0.0,0.8090528394700414
+[05Aug2025 20:07:39.450] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 10.289829429638075,0.0,0.50514949477747
+[05Aug2025 20:07:39.451] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 12.348271404984189,0.0,0.6060976586149991
+[05Aug2025 20:07:39.475] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 14.406830289121217,0.0,0.7070257515301819
+[05Aug2025 20:07:39.476] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 16.465492286811923,0.0,0.807936141891787
+[05Aug2025 20:07:39.674] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 18.52424523065679,0.0,0.9088309186008701
+[05Aug2025 20:07:39.689] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 20.58307838900987,0.0,1.009711924068597
+[05Aug2025 20:07:39.733] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 22.641982296559036,0.0,1.1105807833014296
+[05Aug2025 20:07:39.733] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 24.700948604899168,0.0,1.2114389295552428
+[05Aug2025 20:07:39.734] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 26.75996995073683,0.0,1.3122876269617336
+[05Aug2025 20:07:40.062] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 28.81903983964753,0.0,1.4131279904845542
+[05Aug2025 20:07:40.085] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 30.878152543548595,0.0,1.5139610035221267
+[05Aug2025 20:07:40.085] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 32.93730301027108,0.0,1.614787533431354
+[05Aug2025 20:07:40.115] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 34.996486783802084,0.0,1.7156083452218809
+[05Aug2025 20:07:40.163] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 37.05569993393806,0.0,1.8164241136314558
+[05Aug2025 20:07:40.164] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 39.114938994239765,0.0,1.917235433778842
+[05Aug2025 20:07:40.164] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 41.17420090730775,0.0,2.0180428305593523
+[05Aug2025 20:07:40.164] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 43.23348297651546,0.0,2.1188467669303463
+[05Aug2025 20:07:40.167] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 45.04976976155672,0.0,2.2077558388095895
+[05Aug2025 20:07:40.229] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 46.65173470596301,0.0,2.2861736402069255
+[05Aug2025 20:07:40.315] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 48.064667786929476,0.0,2.355338141039283
+[05Aug2025 20:07:40.316] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 49.31087476434186,0.0,2.416341230773469
+[05Aug2025 20:07:40.316] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 50.41002931841945,0.0,2.470145955919179
+[05Aug2025 20:07:40.427] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 51.379483635116,0.0,2.5176017234975916
+[05Aug2025 20:07:40.432] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 52.23454234244241,0.0,2.559457710501647
+[05Aug2025 20:07:40.472] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 52.98870412230417,0.0,2.596374691039273
+[05Aug2025 20:07:40.533] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 53.65387481214225,0.0,2.6289354678733616
+[05Aug2025 20:07:47.324] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 7.568247136379114,6.967077806581301,0.36902623920377664
+[05Aug2025 20:07:47.324] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 9.068012810690107,8.395961636014079,0.4422380942583004
+[05Aug2025 20:07:47.325] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 10.564369182652854,9.833555073726927,0.5153042354395438
+[05Aug2025 20:07:47.325] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 12.057718549944411,11.278830385942797,0.5882418569844958
+[05Aug2025 20:07:47.325] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 13.54841573911608,12.730881111470325,0.6610661242102651
+[05Aug2025 20:07:47.438] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 8.972157667281408,8.640838935070406,0.4381412372504201
+[05Aug2025 20:07:47.871] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 10.458452442339421,10.104136331763868,0.5107773449217348
+[05Aug2025 20:07:47.871] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 11.94292748116095,11.572082535800632,0.5833356769107922
+[05Aug2025 20:07:47.872] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 13.425797512621784,13.044128987914178,0.6558254107485482
+[05Aug2025 20:07:47.872] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 14.907251927590778,14.51979185883144,0.7282546410165196
+[05Aug2025 20:07:47.872] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 16.387457768813874,15.998644411133597,0.8006305071357929
+[05Aug2025 20:07:47.873] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 17.866562367993083,17.480310262417248,0.8729593060761545
+[05Aug2025 20:07:47.873] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 19.41414568635082,18.787139543249424,0.9486451191519336
+[05Aug2025 20:07:47.873] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 21.004844224629778,19.9397629689434,1.118761287117195
+[05Aug2025 20:07:47.873] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 22.633570386879455,20.956376830405475,1.3721650280949689
+[05Aug2025 20:07:47.874] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 24.29583691347125,21.85303025621502,1.6990284084699852
+[05Aug2025 20:07:47.874] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 25.987686041412644,22.64387857777905,2.090683190793243
+[05Aug2025 20:07:48.214] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 27.705627023744455,23.34140679739852,2.539483989634846
+[05Aug2025 20:07:48.215] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 29.46386403204292,23.956626687102897,2.9472181066234953
+[05Aug2025 20:07:48.368] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 31.25764213524394,24.499250629822143,3.318731410217879
+[05Aug2025 20:07:48.369] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 33.08276748414892,24.977844947300525,3.6582979563982008
+[05Aug2025 20:07:48.369] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 34.69252804188318,25.39996513531645,3.9577956501293556
+[05Aug2025 20:07:48.369] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 36.11233685380489,25.77227514114651,4.221952616000181
+[05Aug2025 20:07:48.370] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 37.36460822591971,26.10065256628863,4.454939059898152
+[05Aug2025 20:07:48.370] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 38.46911157612499,26.39028145526396,4.660433103416381
+[05Aug2025 20:07:48.370] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 39.443283531006045,26.645734135340206,4.841678849799337
+[05Aug2025 20:07:48.371] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 40.3025031952111,26.871043399167462,5.00153759810928
+[05Aug2025 20:07:48.621] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 41.060334939040104,27.0697661698631,5.142533014118726
+[05Aug2025 20:07:48.812] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 41.728742537097105,27.245039653616658,5.26689097103872
+[05Aug2025 20:07:48.813] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 42.31827803858346,27.399630866287282,5.376574689042172
+[05Aug2025 20:07:49.234] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 42.838248350894446,27.535980315862787,5.473315728321268
+[05Aug2025 20:07:49.234] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 43.29686216635264,27.656240530388374,5.55864132496572
+[05Aug2025 20:07:49.234] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 43.70135955158685,27.762310039599953,5.633898501205749
+[05Aug2025 20:07:49.263] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 44.05812624536338,27.85586334672456,5.700275330649674
+[05Aug2025 20:07:49.263] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 44.37279446927437,27.938377363608453,5.758819694219255
+[05Aug2025 20:07:49.264] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 44.65033184276376,28.011154726500052,5.810455822887434
+[05Aug2025 20:07:49.264] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 44.895119806181356,28.075344360570455,5.855998888373051
+[05Aug2025 20:10:31.265] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved wrongly! 0.4238507434765779
+[05Aug2025 20:10:31.345] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved wrongly! 0.35102565890429105
+[05Aug2025 20:10:31.374] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved wrongly! 0.802677931494145
