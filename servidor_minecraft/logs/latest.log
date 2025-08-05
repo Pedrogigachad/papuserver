@@ -2091,3 +2091,14 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'createo
 [05Aug2025 21:00:47.444] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Removing session data for player Color_duty[65283ae9-2d8c-306b-ace2-be67c141c444]
 [05Aug2025 21:04:33.818] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Darkiumoun moved wrongly!
 [05Aug2025 21:05:27.108] [Server thread/WARN] [net.geforcemods.securitycraft.SecurityCraft/]: Player "Darkiumoun" tried to enter a passcode into "Passcode-protected Chest" at position [ResourceKey[minecraft:dimension / minecraft:overworld] BlockPos{x=929, y=108, z=-4049}] too quickly!
+[05Aug2025 21:16:53.744] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2253ms or 45 ticks behind
+[05Aug2025 21:17:00.365] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=-13392, y=-47, z=-9652}
+[05Aug2025 21:17:00.366] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=-13392, y=-47, z=-9651}
+[05Aug2025 21:17:05.642] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=-13224, y=-30, z=-9764}
+[05Aug2025 21:17:11.073] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=-13344, y=8, z=-9622}
+[05Aug2025 21:23:44.780] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2040ms or 40 ticks behind
+[05Aug2025 21:24:02.022] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2282ms or 45 ticks behind
+[05Aug2025 21:25:43.506] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Cars0325 lost connection: Disconnected
+[05Aug2025 21:25:43.506] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Cars0325 left the game
+[05Aug2025 21:25:43.507] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Removing session data for player Cars0325[cdee860c-14b2-399b-9434-7a30a3a1578b]
+[05Aug2025 21:27:25.455] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elCebollita3797 has made the advancement [Dragon Growth Hormone]

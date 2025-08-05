@@ -5693,5 +5693,17 @@
     },
     "done": true
   },
+  "iceandfire:iceandfire/dragon_meal": {
+    "criteria": {
+      "bestiary": "2025-08-05 21:27:25 +0000"
+    },
+    "done": true
+  },
+  "securitycraft:recipes/tools/universal_owner_changer": {
+    "criteria": {
+      "has_name_tag": "2025-08-05 21:19:47 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }
