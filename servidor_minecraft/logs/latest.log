@@ -1280,3 +1280,56 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'createo
 [05Aug2025 20:34:49.440] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Player Color_duty just logged in with id 65283ae9-2d8c-306b-ace2-be67c141c444
 [05Aug2025 20:34:49.445] [ForkJoinPool-3-worker-6/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loading local skin for player Color_duty[65283ae9-2d8c-306b-ace2-be67c141c444]
 [05Aug2025 20:34:49.873] [ForkJoinPool-3-worker-6/INFO] [me.edoren.skin_changer.common.NetworkUtils/]: Error downloading file https://playerdb.co/api/player/minecraft/Color_duty
+[05Aug2025 20:38:27.233] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: elCebollita3797[/100.73.90.1:55789] logged in with entity id 20491 at (2071.4817374798045, 69.0, -4988.014723541848)
+[05Aug2025 20:38:27.240] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elCebollita3797 joined the game
+[05Aug2025 20:38:27.251] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Player elCebollita3797 just logged in with id fa0905fc-a62a-3107-a593-36ca7c564a45
+[05Aug2025 20:38:27.254] [ForkJoinPool-3-worker-7/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loading local skin for player elCebollita3797[fa0905fc-a62a-3107-a593-36ca7c564a45]
+[05Aug2025 20:38:27.491] [ForkJoinPool-3-worker-7/INFO] [me.edoren.skin_changer.common.NetworkUtils/]: File https://playerdb.co/api/player/minecraft/elCebollita3797 downloaded
+[05Aug2025 20:38:53.175] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: elCebollita3797 lost connection: Disconnected
+[05Aug2025 20:38:53.175] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elCebollita3797 left the game
+[05Aug2025 20:38:53.175] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Removing session data for player elCebollita3797[fa0905fc-a62a-3107-a593-36ca7c564a45]
+[05Aug2025 20:39:22.914] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=269, y=14, z=-386} BlockPos{x=269, y=14, z=-385}
+[05Aug2025 20:39:22.967] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=269, y=14, z=-386} BlockPos{x=269, y=14, z=-385}
+[05Aug2025 20:39:23.012] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=269, y=14, z=-386} BlockPos{x=269, y=14, z=-385}
+[05Aug2025 20:39:23.079] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=269, y=14, z=-386} BlockPos{x=269, y=14, z=-385}
+[05Aug2025 20:41:07.080] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: elCebollita3797[/100.73.90.1:55854] logged in with entity id 23549 at (2072.8676562044525, 69.0, -4987.561580583172)
+[05Aug2025 20:41:07.087] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elCebollita3797 joined the game
+[05Aug2025 20:41:07.108] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Player elCebollita3797 just logged in with id fa0905fc-a62a-3107-a593-36ca7c564a45
+[05Aug2025 20:41:07.110] [ForkJoinPool-3-worker-8/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loading local skin for player elCebollita3797[fa0905fc-a62a-3107-a593-36ca7c564a45]
+[05Aug2025 20:41:07.230] [ForkJoinPool-3-worker-8/INFO] [me.edoren.skin_changer.common.NetworkUtils/]: File https://playerdb.co/api/player/minecraft/elCebollita3797 downloaded
+[05Aug2025 20:41:56.762] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Darkiumoun was kicked for floating too long!
+[05Aug2025 20:41:56.838] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Darkiumoun lost connection: Flying is not enabled on this server
+[05Aug2025 20:41:56.838] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Darkiumoun left the game
+[05Aug2025 20:41:56.839] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Removing session data for player Darkiumoun[c4e857d5-16b0-386e-b080-ca2361fd0700]
+[05Aug2025 20:42:06.249] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Darkiumoun[/100.123.78.85:64031] logged in with entity id 25286 at (1625.0915333080886, 57.861668485445946, -4564.787453030524)
+[05Aug2025 20:42:06.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Darkiumoun joined the game
+[05Aug2025 20:42:06.277] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Player Darkiumoun just logged in with id c4e857d5-16b0-386e-b080-ca2361fd0700
+[05Aug2025 20:42:06.279] [ForkJoinPool-3-worker-8/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loading local skin for player Darkiumoun[c4e857d5-16b0-386e-b080-ca2361fd0700]
+[05Aug2025 20:42:06.280] [ForkJoinPool-3-worker-8/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loading local cape for player Darkiumoun[c4e857d5-16b0-386e-b080-ca2361fd0700]
+[05Aug2025 20:43:27.799] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2008ms or 40 ticks behind
+[05Aug2025 20:43:58.594] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2003ms or 40 ticks behind
+[05Aug2025 20:44:11.659] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! -2.4194164329678642,0.0,9.873289614382884
+[05Aug2025 20:44:11.660] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! -3.087774416926095,0.0,11.798385149690148
+[05Aug2025 20:44:11.661] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! -3.801432113471037,0.0,13.711310116654204
+[05Aug2025 20:44:11.661] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! -4.555044156517397,0.0,15.613500642338295
+[05Aug2025 20:44:11.662] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! -5.343895933178146,0.0,17.50622339081474
+[05Aug2025 20:44:11.663] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! -6.163829154886798,0.0,19.390595559792928
+[05Aug2025 20:44:11.664] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! -7.011176211127577,0.0,21.267602517654268
+[05Aug2025 20:44:11.764] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! -6.080283602063901,0.0,15.20371811055702
+[05Aug2025 20:44:11.764] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! -6.973135540176827,0.0,17.0684993777204
+[05Aug2025 20:44:11.765] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! -7.884796904286077,0.0,18.92822716018054
+[05Aug2025 20:44:11.862] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! -8.813048182124248,0.0,20.783497769132737
+[05Aug2025 20:44:11.863] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! -9.755931763871331,0.0,22.634837151051215
+[05Aug2025 20:44:11.936] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! -10.711721037666166,0.0,24.482709190725473
+[05Aug2025 20:44:11.993] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! -11.683053583153196,0.0,26.325065906237796
+[05Aug2025 20:44:12.045] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! -12.70656455322137,0.0,28.133919590305595
+[05Aug2025 20:44:12.046] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! -13.766572480124296,0.0,29.91497085836636
+[05Aug2025 20:44:12.129] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! -14.880849456457554,0.0,31.650268846120525
+[05Aug2025 20:44:12.186] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! -16.055436021803644,0.0,33.330508971422205
+[05Aug2025 20:44:12.228] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! -17.283402083752435,0.0,34.96194890778679
+[05Aug2025 20:45:26.792] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2002ms or 40 ticks behind
+[05Aug2025 20:46:44.599] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Darkiumoun fell from a high place
+[05Aug2025 20:46:44.608] [Server thread/INFO] [tombstone/]: The player Darkiumoun has successfully been saved
+[05Aug2025 20:46:56.446] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=2624, y=-34, z=-5853}
+[05Aug2025 20:47:35.488] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Darkiumoun was doomed to fall by Hoglin
+[05Aug2025 20:47:35.531] [Server thread/INFO] [tombstone/]: The player Darkiumoun has successfully been saved
