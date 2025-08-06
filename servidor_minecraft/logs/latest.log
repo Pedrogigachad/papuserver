@@ -308,3 +308,17 @@
 [06Aug2025 02:30:58.506] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Player Darkiumoun just logged in with id c4e857d5-16b0-386e-b080-ca2361fd0700
 [06Aug2025 02:30:58.507] [ForkJoinPool-3-worker-19/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loading local skin for player Darkiumoun[c4e857d5-16b0-386e-b080-ca2361fd0700]
 [06Aug2025 02:30:58.507] [ForkJoinPool-3-worker-19/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loading local cape for player Darkiumoun[c4e857d5-16b0-386e-b080-ca2361fd0700]
+[06Aug2025 02:33:39.262] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Darkiumoun was kicked for floating too long!
+[06Aug2025 02:33:39.309] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Darkiumoun lost connection: Flying is not enabled on this server
+[06Aug2025 02:33:39.309] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Darkiumoun left the game
+[06Aug2025 02:33:39.309] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Removing session data for player Darkiumoun[c4e857d5-16b0-386e-b080-ca2361fd0700]
+[06Aug2025 02:33:53.909] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@3cb21390[id=<null>,name=Darkiumoun,properties={},legacy=false] (/100.123.78.85:57329) lost connection: Disconnected
+[06Aug2025 02:34:08.613] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@246d8bcb[id=<null>,name=Darkiumoun,properties={},legacy=false] (/100.123.78.85:57334) lost connection: Disconnected
+[06Aug2025 02:34:13.828] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Darkiumoun[/100.123.78.85:57337] logged in with entity id 81777 at (-166.8011760606139, 228.5330383130159, -4485.897555627028)
+[06Aug2025 02:34:13.840] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Darkiumoun joined the game
+[06Aug2025 02:34:13.896] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Player Darkiumoun just logged in with id c4e857d5-16b0-386e-b080-ca2361fd0700
+[06Aug2025 02:34:13.897] [ForkJoinPool-3-worker-20/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loading local skin for player Darkiumoun[c4e857d5-16b0-386e-b080-ca2361fd0700]
+[06Aug2025 02:34:13.897] [ForkJoinPool-3-worker-20/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loading local cape for player Darkiumoun[c4e857d5-16b0-386e-b080-ca2361fd0700]
+[06Aug2025 02:41:29.909] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Darkiumoun lost connection: Disconnected
+[06Aug2025 02:41:29.909] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Darkiumoun left the game
+[06Aug2025 02:41:29.909] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Removing session data for player Darkiumoun[c4e857d5-16b0-386e-b080-ca2361fd0700]
