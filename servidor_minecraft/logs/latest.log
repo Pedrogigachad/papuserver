@@ -1,2 +1,34 @@
 [06Aug2025 00:05:04.975] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 3476ms or 69 ticks behind
 [06Aug2025 00:06:47.360] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Cars0325 has made the advancement [Strange Encounter]
+[06Aug2025 00:23:53.600] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 25151ms or 503 ticks behind
+[06Aug2025 00:29:34.737] [Worker-Main-2/WARN] [net.minecraft.server.level.WorldGenRegion/]: Tried to access a block entity before it was created. BlockPos{x=3713, y=-11, z=-3662}
+[06Aug2025 00:30:12.817] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=3783, y=-32, z=-3828}
+[06Aug2025 00:30:12.817] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=3783, y=-32, z=-3827}
+[06Aug2025 00:30:26.252] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=3799, y=-53, z=-3762}
+[06Aug2025 00:30:26.252] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=3800, y=-53, z=-3762}
+[06Aug2025 00:32:03.737] [Worker-Main-10/ERROR] [net.minecraft.world.level.levelgen.feature.MonsterRoomFeature/]: Failed to fetch mob spawner entity at (3557, -39, -3457)
+[06Aug2025 00:32:48.670] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=3747, y=-5, z=-3375}
+[06Aug2025 00:32:48.670] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=3746, y=-5, z=-3375}
+[06Aug2025 00:35:38.695] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=3616, y=-45, z=-3062}
+[06Aug2025 00:36:20.157] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Color_duty[/100.104.248.125:50557] logged in with entity id 29413 at (1984.0472511804667, 128.5, -4098.109014684987)
+[06Aug2025 00:36:20.170] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Color_duty joined the game
+[06Aug2025 00:36:20.180] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Player Color_duty just logged in with id 65283ae9-2d8c-306b-ace2-be67c141c444
+[06Aug2025 00:36:20.191] [ForkJoinPool-3-worker-2/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loading local skin for player Color_duty[65283ae9-2d8c-306b-ace2-be67c141c444]
+[06Aug2025 00:36:20.618] [ForkJoinPool-3-worker-2/INFO] [me.edoren.skin_changer.common.NetworkUtils/]: Error downloading file https://playerdb.co/api/player/minecraft/Color_duty
+[06Aug2025 00:36:36.975] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=3688, y=-10, z=-3013}
+[06Aug2025 00:36:36.975] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=3688, y=-10, z=-3012}
+[06Aug2025 00:36:48.752] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: elCebollita3797[/100.73.90.1:60710] logged in with entity id 29837 at (731.4641136595174, -2.0, -4886.081239983953)
+[06Aug2025 00:36:48.765] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elCebollita3797 joined the game
+[06Aug2025 00:36:48.779] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Player elCebollita3797 just logged in with id fa0905fc-a62a-3107-a593-36ca7c564a45
+[06Aug2025 00:36:48.781] [ForkJoinPool-3-worker-2/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loading local skin for player elCebollita3797[fa0905fc-a62a-3107-a593-36ca7c564a45]
+[06Aug2025 00:36:48.838] [ForkJoinPool-3-worker-2/INFO] [me.edoren.skin_changer.common.NetworkUtils/]: File https://playerdb.co/api/player/minecraft/elCebollita3797 downloaded
+[06Aug2025 00:37:04.425] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Cars0325 lost connection: Disconnected
+[06Aug2025 00:37:04.425] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Cars0325 left the game
+[06Aug2025 00:37:04.427] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Removing session data for player Cars0325[cdee860c-14b2-399b-9434-7a30a3a1578b]
+[06Aug2025 00:37:24.643] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Cars0325[/100.69.98.15:61872] logged in with entity id 30238 at (3724.7212268598314, 269.0, -3233.0596597331128)
+[06Aug2025 00:37:24.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Cars0325 joined the game
+[06Aug2025 00:37:24.660] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Player Cars0325 just logged in with id cdee860c-14b2-399b-9434-7a30a3a1578b
+[06Aug2025 00:37:24.665] [ForkJoinPool-3-worker-2/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loading local skin for player Cars0325[cdee860c-14b2-399b-9434-7a30a3a1578b]
+[06Aug2025 00:37:24.725] [ForkJoinPool-3-worker-2/INFO] [me.edoren.skin_changer.common.NetworkUtils/]: File https://playerdb.co/api/player/minecraft/Cars0325 downloaded
+[06Aug2025 00:37:39.340] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Cars0325> xaero-waypoint:Shared Location:S:3725:269:-3233:8:false:0:Internal-overworld-waypoints
+[06Aug2025 00:37:47.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Cars0325> xaero-waypoint:Shared Location:S:3724:268:-3238:6:false:0:Internal-overworld-waypoints
