@@ -11457,3 +11457,16 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'createo
 [06Aug2025 00:58:09.910] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Cars0325 lost connection: Timed out
 [06Aug2025 00:58:09.911] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Cars0325 left the game
 [06Aug2025 00:58:09.911] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Removing session data for player Cars0325[cdee860c-14b2-399b-9434-7a30a3a1578b]
+[06Aug2025 00:58:47.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elCebollita3797 has made the advancement [Funeral Theft]
+[06Aug2025 01:02:00.351] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[06Aug2025 01:02:00.372] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[06Aug2025 01:07:00.356] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[06Aug2025 01:07:00.376] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[06Aug2025 01:12:00.356] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[06Aug2025 01:12:00.376] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[06Aug2025 01:13:50.409] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Color_duty> xaero-waypoint:Shared Location:S:1032:~:-4137:11:false:0:Internal-overworld-waypoints
+[06Aug2025 01:17:00.350] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[06Aug2025 01:17:00.371] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[06Aug2025 01:18:29.571] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Color_duty burned to death
+[06Aug2025 01:18:29.577] [Server thread/DEBUG] [tombstone/]: A new grave of the player Color_duty was created at position [x:1049, y:26, z:-3963, dim:minecraft:overworld]
+[06Aug2025 01:18:29.581] [Server thread/INFO] [tombstone/]: The player Color_duty has successfully been saved

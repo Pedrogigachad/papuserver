@@ -6364,5 +6364,11 @@
     },
     "done": true
   },
+  "minecraft:recipes/misc/orange_dye_from_torchflower": {
+    "criteria": {
+      "has_torchflower": "2025-08-06 00:58:59 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

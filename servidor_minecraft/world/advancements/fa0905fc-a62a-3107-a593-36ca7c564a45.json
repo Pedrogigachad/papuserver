@@ -745,6 +745,7 @@
       "sweet_berries": "2025-07-17 20:47:50 +0000",
       "cooked_beef": "2025-07-17 23:21:37 +0000",
       "baked_potato": "2025-07-25 20:40:02 +0000",
+      "apple": "2025-08-06 01:01:51 +0000",
       "potato": "2025-07-26 18:35:36 +0000",
       "golden_carrot": "2025-07-22 03:21:11 +0000",
       "cooked_chicken": "2025-07-17 21:23:34 +0000",
@@ -5733,6 +5734,12 @@
   "minecraft:recipes/building_blocks/polished_granite_stairs_from_polished_granite_stonecutting": {
     "criteria": {
       "has_polished_granite": "2025-08-06 00:55:51 +0000"
+    },
+    "done": true
+  },
+  "tombstone:adventure/funeral_theft": {
+    "criteria": {
+      "coded_trigger": "2025-08-06 00:58:47 +0000"
     },
     "done": true
   },
