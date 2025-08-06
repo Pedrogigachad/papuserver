@@ -144,3 +144,28 @@
 [06Aug2025 01:18:29.581] [Server thread/INFO] [tombstone/]: The player Color_duty has successfully been saved
 [06Aug2025 01:20:58.061] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Color_duty burned to death
 [06Aug2025 01:20:58.064] [Server thread/INFO] [tombstone/]: The player Color_duty has successfully been saved
+[06Aug2025 01:33:37.992] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Color_duty> JULIO
+[06Aug2025 01:33:41.742] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Color_duty> mano
+[06Aug2025 01:33:44.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elCebollita3797> problemitas
+[06Aug2025 01:33:48.466] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Color_duty> voy a transmitirle
+[06Aug2025 01:33:50.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Color_duty> pero
+[06Aug2025 01:33:51.510] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elCebollita3797> no puede ver la expedicion
+[06Aug2025 01:33:55.025] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elCebollita3797> keep it cool
+[06Aug2025 01:33:57.543] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Color_duty> si consigues scarf
+[06Aug2025 01:34:00.034] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elCebollita3797> yes
+[06Aug2025 01:34:01.194] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Color_duty> no me digas
+[06Aug2025 01:34:05.294] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <elCebollita3797> aight
+[06Aug2025 01:36:34.510] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Color_duty was kicked for floating too long!
+[06Aug2025 01:36:34.567] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Color_duty lost connection: Flying is not enabled on this server
+[06Aug2025 01:36:34.568] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Color_duty left the game
+[06Aug2025 01:36:34.568] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Removing session data for player Color_duty[65283ae9-2d8c-306b-ace2-be67c141c444]
+[06Aug2025 01:36:43.473] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Color_duty[/100.104.248.125:50756] logged in with entity id 64452 at (-167.45770802484824, 264.0402208541346, -4491.767278128422)
+[06Aug2025 01:36:43.480] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Color_duty joined the game
+[06Aug2025 01:36:43.554] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Player Color_duty just logged in with id 65283ae9-2d8c-306b-ace2-be67c141c444
+[06Aug2025 01:36:43.559] [ForkJoinPool-3-worker-10/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loading local skin for player Color_duty[65283ae9-2d8c-306b-ace2-be67c141c444]
+[06Aug2025 01:36:43.927] [ForkJoinPool-3-worker-10/INFO] [me.edoren.skin_changer.common.NetworkUtils/]: Error downloading file https://playerdb.co/api/player/minecraft/Color_duty
+[06Aug2025 01:38:34.859] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: elCebollita3797 was kicked for floating too long!
+[06Aug2025 01:38:34.910] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: elCebollita3797 lost connection: Flying is not enabled on this server
+[06Aug2025 01:38:34.910] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: elCebollita3797 left the game
+[06Aug2025 01:38:34.910] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Removing session data for player elCebollita3797[fa0905fc-a62a-3107-a593-36ca7c564a45]
+[06Aug2025 01:39:16.962] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@66ff269b[id=<null>,name=elCebollita3797,properties={},legacy=false] (/100.73.90.1:65260) lost connection: Disconnected
