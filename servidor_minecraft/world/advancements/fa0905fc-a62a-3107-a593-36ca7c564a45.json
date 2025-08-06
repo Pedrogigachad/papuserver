@@ -74,6 +74,7 @@
       "tundra": "2025-07-25 16:53:23 +0000",
       "glowing_grotto": "2025-07-23 17:30:34 +0000",
       "undergrowth": "2025-07-25 19:36:05 +0000",
+      "origin_valley": "2025-08-06 00:53:27 +0000",
       "crag": "2025-07-17 23:00:10 +0000",
       "snowy_maple_woods": "2025-07-25 17:41:04 +0000",
       "ominous_woods": "2025-07-21 22:11:56 +0000"
@@ -5702,6 +5703,48 @@
   "iceandfire:iceandfire/dragon_meal": {
     "criteria": {
       "bestiary": "2025-08-05 21:27:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab_from_cut_sandstone_stonecutting": {
+    "criteria": {
+      "has_cut_sandstone": "2025-08-06 00:55:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_slab_from_polished_granite_stonecutting": {
+    "criteria": {
+      "has_polished_granite": "2025-08-06 00:55:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_slab": {
+    "criteria": {
+      "has_polished_granite": "2025-08-06 00:55:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/sandstone_stairs": {
+    "criteria": {
+      "has_cut_sandstone": "2025-08-06 00:55:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_stairs_from_polished_granite_stonecutting": {
+    "criteria": {
+      "has_polished_granite": "2025-08-06 00:55:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_sandstone_slab": {
+    "criteria": {
+      "has_cut_sandstone": "2025-08-06 00:55:56 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/polished_granite_stairs": {
+    "criteria": {
+      "has_polished_granite": "2025-08-06 00:55:51 +0000"
     },
     "done": true
   },
