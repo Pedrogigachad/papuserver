@@ -343,3 +343,24 @@
 [06Aug2025 02:49:33.260] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Darkiumoun lost connection: Disconnected
 [06Aug2025 02:49:33.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Darkiumoun left the game
 [06Aug2025 02:49:33.261] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Removing session data for player Darkiumoun[c4e857d5-16b0-386e-b080-ca2361fd0700]
+[06Aug2025 02:52:51.859] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@78eee078[id=<null>,name=Darkiumoun,properties={},legacy=false] (/100.123.78.85:57765) lost connection: Disconnected
+[06Aug2025 02:52:56.727] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Darkiumoun[/100.123.78.85:57773] logged in with entity id 85791 at (-166.5, 165.0, -4498.5)
+[06Aug2025 02:52:56.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Darkiumoun joined the game
+[06Aug2025 02:52:56.781] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Player Darkiumoun just logged in with id c4e857d5-16b0-386e-b080-ca2361fd0700
+[06Aug2025 02:52:56.781] [ForkJoinPool-3-worker-25/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loading local skin for player Darkiumoun[c4e857d5-16b0-386e-b080-ca2361fd0700]
+[06Aug2025 02:52:56.782] [ForkJoinPool-3-worker-25/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loading local cape for player Darkiumoun[c4e857d5-16b0-386e-b080-ca2361fd0700]
+[06Aug2025 02:59:29.325] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved wrongly! 0.8570808820702496
+[06Aug2025 02:59:29.368] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved wrongly! 1.7111899199730942
+[06Aug2025 02:59:29.420] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved wrongly! 2.4627259256903926
+[06Aug2025 02:59:29.577] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved wrongly! 0.7131149681918032
+[06Aug2025 02:59:29.686] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved wrongly! 0.2637649074449655
+[06Aug2025 02:59:29.686] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved wrongly! 0.7131149681918032
+[06Aug2025 03:00:18.146] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 4.4382542902044975,-1.8348517862845455,-9.78775600114659
+[06Aug2025 03:00:18.147] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 5.5390793658484085,-2.0274501007542938,-11.238777775475683
+[06Aug2025 03:00:18.147] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 6.712553681324437,-2.1973218141166058,-12.653383247814418
+[06Aug2025 03:00:18.148] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 7.95320242150683,-2.3471486653021714,-14.031094882438992
+[06Aug2025 03:00:18.148] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 9.254262493859642,-2.4792959480478345,-15.374407605614579
+[06Aug2025 03:00:18.149] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 10.608445446447831,-2.595849851429506,-16.68763814783506
+[06Aug2025 03:00:18.150] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 12.009482779403584,-2.6986503942121516,-17.9743362064537
+[06Aug2025 03:00:18.214] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 10.032047708638743,-1.172834122568645,-10.942186711969953
+[06Aug2025 03:01:46.590] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Matias (vehicle of Darkiumoun) moved too quickly! 9.746829387945809,-0.024321681805744788,3.071139022205898
