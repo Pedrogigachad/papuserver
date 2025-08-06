@@ -7472,12 +7472,6 @@
     },
     "done": true
   },
-  "iceandfire:iceandfire/dragon_meal": {
-    "criteria": {
-      "bestiary": "2025-08-02 21:27:27 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/oak_hanging_sign": {
     "criteria": {
       "has_stripped_logs": "2025-08-02 21:17:17 +0000"
@@ -7487,6 +7481,12 @@
   "minecraft:recipes/building_blocks/stripped_oak_wood": {
     "criteria": {
       "has_log": "2025-08-02 21:17:17 +0000"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/dragon_meal": {
+    "criteria": {
+      "bestiary": "2025-08-02 21:27:27 +0000"
     },
     "done": true
   },
