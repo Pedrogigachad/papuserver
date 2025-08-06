@@ -322,3 +322,24 @@
 [06Aug2025 02:41:29.909] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Darkiumoun lost connection: Disconnected
 [06Aug2025 02:41:29.909] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Darkiumoun left the game
 [06Aug2025 02:41:29.909] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Removing session data for player Darkiumoun[c4e857d5-16b0-386e-b080-ca2361fd0700]
+[06Aug2025 02:44:43.814] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@42005b25[id=<null>,name=Darkiumoun,properties={},legacy=false] (/100.123.78.85:57558) lost connection: Disconnected
+[06Aug2025 02:44:48.829] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Darkiumoun[/100.123.78.85:57561] logged in with entity id 83846 at (-167.46508787644183, 165.0, -4498.378951590728)
+[06Aug2025 02:44:48.872] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Darkiumoun joined the game
+[06Aug2025 02:44:48.915] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Player Darkiumoun just logged in with id c4e857d5-16b0-386e-b080-ca2361fd0700
+[06Aug2025 02:44:48.916] [ForkJoinPool-3-worker-21/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loading local skin for player Darkiumoun[c4e857d5-16b0-386e-b080-ca2361fd0700]
+[06Aug2025 02:44:48.918] [ForkJoinPool-3-worker-21/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loading local cape for player Darkiumoun[c4e857d5-16b0-386e-b080-ca2361fd0700]
+[06Aug2025 02:46:53.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cesarjandres> zzz
+[06Aug2025 02:47:05.062] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cesarjandres> zzzzzzzzzzzzz
+[06Aug2025 02:47:12.660] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cesarjandres> ay
+[06Aug2025 02:47:17.117] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cesarjandres> ay
+[06Aug2025 02:47:21.213] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cesarjandres> nonono
+[06Aug2025 02:47:24.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <cesarjandres> nonoonoonooooo
+[06Aug2025 02:48:13.737] [ForkJoinPool-3-worker-22/INFO] [me.edoren.skin_changer.common.NetworkUtils/]: File https://www.minecraftskins.com/uploads/skins/2025/07/13/misa-amane-23396753.png?v897 downloaded
+[06Aug2025 02:48:13.738] [ForkJoinPool-3-worker-22/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loaded skin for player Darkiumoun[c4e857d5-16b0-386e-b080-ca2361fd0700]
+[06Aug2025 02:48:13.739] [ForkJoinPool-3-worker-23/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Caching file world/skin_changer/skins/c4e857d5-16b0-386e-b080-ca2361fd0700
+[06Aug2025 02:49:15.496] [ForkJoinPool-3-worker-22/INFO] [me.edoren.skin_changer.common.NetworkUtils/]: File https://www.minecraftskins.com/uploads/skins/2022/09/16/maid-walter-white-20852237.png?v897 downloaded
+[06Aug2025 02:49:15.497] [ForkJoinPool-3-worker-22/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loaded skin for player Darkiumoun[c4e857d5-16b0-386e-b080-ca2361fd0700]
+[06Aug2025 02:49:15.498] [ForkJoinPool-3-worker-24/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Caching file world/skin_changer/skins/c4e857d5-16b0-386e-b080-ca2361fd0700
+[06Aug2025 02:49:33.260] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Darkiumoun lost connection: Disconnected
+[06Aug2025 02:49:33.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Darkiumoun left the game
+[06Aug2025 02:49:33.261] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Removing session data for player Darkiumoun[c4e857d5-16b0-386e-b080-ca2361fd0700]
