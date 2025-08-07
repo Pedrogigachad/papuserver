@@ -7979,3 +7979,17 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'createo
 [07Aug2025 00:08:21.918] [Server thread/ERROR] [net.minecraft.Util/]: Invalid entity rotation: NaN, discarding.
 [07Aug2025 00:08:36.890] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=6365, y=-53, z=2211}
 [07Aug2025 00:08:36.891] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=6366, y=-53, z=2211}
+[07Aug2025 00:08:56.135] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=6386, y=21, z=2151}
+[07Aug2025 00:09:59.878] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[07Aug2025 00:09:59.899] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[07Aug2025 00:10:39.586] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Cars0325 moved too quickly! 0.39186807114128897,0.6259007534262793,10.26609285367067
+[07Aug2025 00:11:11.726] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=186, y=-6, z=458}
+[07Aug2025 00:11:11.727] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=182, y=-6, z=460}
+[07Aug2025 00:11:11.728] [Worker-Main-3/ERROR] [net.minecraft.world.entity.decoration.HangingEntity/]: Hanging entity at invalid position: BlockPos{x=180, y=-6, z=458}
+[07Aug2025 00:13:55.121] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Cars0325 moved too quickly! 2.6656427062234798,3.5877151180657165,9.534856233365645
+[07Aug2025 00:14:59.941] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[07Aug2025 00:14:59.977] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[07Aug2025 00:15:02.459] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Cars0325 has made the advancement [Jail of Cold]
+[07Aug2025 00:15:19.273] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Cars0325 moved too quickly! -0.9201511364108228,3.0246333276970603,10.342472016262946
+[07Aug2025 00:15:28.543] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=6547, y=-3, z=4141}
+[07Aug2025 00:16:54.163] [Server thread/ERROR] [net.minecraft.Util/]: POI data mismatch: already registered at BlockPos{x=7010, y=8, z=4123}
