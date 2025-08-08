@@ -1023,3 +1023,22 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'createo
 [08Aug2025 05:14:11.772] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Player cesarjandres just logged in with id 19a3106c-ae81-3e03-a847-01a4cafc18b7
 [08Aug2025 05:14:11.774] [ForkJoinPool-3-worker-5/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loading local skin for player cesarjandres[19a3106c-ae81-3e03-a847-01a4cafc18b7]
 [08Aug2025 05:14:11.835] [ForkJoinPool-3-worker-5/INFO] [me.edoren.skin_changer.common.NetworkUtils/]: File https://playerdb.co/api/player/minecraft/cesarjandres downloaded
+[08Aug2025 05:19:57.599] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: cesarjandres was kicked for floating too long!
+[08Aug2025 05:19:57.646] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: cesarjandres lost connection: Flying is not enabled on this server
+[08Aug2025 05:19:57.647] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cesarjandres left the game
+[08Aug2025 05:19:57.647] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Removing session data for player cesarjandres[19a3106c-ae81-3e03-a847-01a4cafc18b7]
+[08Aug2025 05:20:15.803] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: cesarjandres[/100.106.164.114:64398] logged in with entity id 36001 at (-177.66742919850685, 223.75416217098993, -4505.587875318656)
+[08Aug2025 05:20:15.810] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cesarjandres joined the game
+[08Aug2025 05:20:15.819] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Player cesarjandres just logged in with id 19a3106c-ae81-3e03-a847-01a4cafc18b7
+[08Aug2025 05:20:15.823] [ForkJoinPool-3-worker-6/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loading local skin for player cesarjandres[19a3106c-ae81-3e03-a847-01a4cafc18b7]
+[08Aug2025 05:20:15.907] [ForkJoinPool-3-worker-6/INFO] [me.edoren.skin_changer.common.NetworkUtils/]: File https://playerdb.co/api/player/minecraft/cesarjandres downloaded
+[08Aug2025 05:20:25.995] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: cesarjandres was kicked for floating too long!
+[08Aug2025 05:20:26.047] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: cesarjandres lost connection: Flying is not enabled on this server
+[08Aug2025 05:20:26.047] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cesarjandres left the game
+[08Aug2025 05:20:26.047] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Removing session data for player cesarjandres[19a3106c-ae81-3e03-a847-01a4cafc18b7]
+[08Aug2025 05:20:41.251] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: cesarjandres[/100.106.164.114:64423] logged in with entity id 36248 at (-177.76805419850686, 206.4982023628236, -4505.984375318656)
+[08Aug2025 05:20:41.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cesarjandres joined the game
+[08Aug2025 05:20:41.268] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Player cesarjandres just logged in with id 19a3106c-ae81-3e03-a847-01a4cafc18b7
+[08Aug2025 05:20:41.269] [ForkJoinPool-3-worker-6/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loading local skin for player cesarjandres[19a3106c-ae81-3e03-a847-01a4cafc18b7]
+[08Aug2025 05:20:41.325] [ForkJoinPool-3-worker-6/INFO] [me.edoren.skin_changer.common.NetworkUtils/]: File https://playerdb.co/api/player/minecraft/cesarjandres downloaded
+[08Aug2025 05:20:56.563] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: cesarjandres moved too quickly! 0.0,-11.17888538500506,0.0
