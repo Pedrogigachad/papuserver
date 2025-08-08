@@ -1057,3 +1057,16 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'createo
 [08Aug2025 05:41:04.977] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cesarjandres fell from a high place
 [08Aug2025 05:41:04.979] [Server thread/INFO] [tombstone/]: The player cesarjandres has successfully been saved
 [08Aug2025 05:43:34.925] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: cesarjandres moved too quickly! 4.352330026824177,8.838654081531956,3.2313232115848223
+[08Aug2025 06:05:44.045] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: cesarjandres was kicked for floating too long!
+[08Aug2025 06:05:44.095] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: cesarjandres lost connection: Flying is not enabled on this server
+[08Aug2025 06:05:44.095] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cesarjandres left the game
+[08Aug2025 06:05:44.095] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Removing session data for player cesarjandres[19a3106c-ae81-3e03-a847-01a4cafc18b7]
+[08Aug2025 06:06:28.496] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@24a5fef7[id=<null>,name=cesarjandres,properties={},legacy=false] (/100.106.164.114:65197) lost connection: Disconnected
+[08Aug2025 06:07:02.693] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: Disconnecting com.mojang.authlib.GameProfile@603acca4[id=<null>,name=cesarjandres,properties={},legacy=false] (/100.106.164.114:65231): Took too long to log in
+[08Aug2025 06:07:02.711] [Server thread/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: com.mojang.authlib.GameProfile@603acca4[id=<null>,name=cesarjandres,properties={},legacy=false] (/100.106.164.114:65231) lost connection: Took too long to log in
+[08Aug2025 06:07:02.740] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[08Aug2025 06:07:16.901] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: cesarjandres[/100.106.164.114:65305] logged in with entity id 44342 at (-179.3615308838316, 175.08604492032546, -4496.909659456075)
+[08Aug2025 06:07:16.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cesarjandres joined the game
+[08Aug2025 06:07:16.915] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Player cesarjandres just logged in with id 19a3106c-ae81-3e03-a847-01a4cafc18b7
+[08Aug2025 06:07:16.916] [ForkJoinPool-3-worker-8/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loading local skin for player cesarjandres[19a3106c-ae81-3e03-a847-01a4cafc18b7]
+[08Aug2025 06:07:17.003] [ForkJoinPool-3-worker-8/INFO] [me.edoren.skin_changer.common.NetworkUtils/]: File https://playerdb.co/api/player/minecraft/cesarjandres downloaded
