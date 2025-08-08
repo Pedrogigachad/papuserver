@@ -8614,3 +8614,14 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'createo
 [08Aug2025 03:52:24.103] [Server thread/INFO] [tombstone/]: The player cesarjandres has successfully been saved
 [08Aug2025 03:53:58.731] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
 [08Aug2025 03:53:58.753] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[08Aug2025 03:56:47.451] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: cesarjandres moved too quickly! 5.57449268461108,-1.0,-10.972007928749917
+[08Aug2025 03:56:55.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cesarjandres suffocated in a wall
+[08Aug2025 03:56:55.455] [Server thread/DEBUG] [tombstone/]: A new grave of the player cesarjandres was created at position [x:-30, y:19, z:-4535, dim:minecraft:overworld]
+[08Aug2025 03:56:55.456] [Server thread/INFO] [tombstone/]: The player cesarjandres has successfully been saved
+[08Aug2025 03:58:57.944] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cesarjandres was slain by Fire Dragon
+[08Aug2025 03:58:57.946] [Server thread/DEBUG] [tombstone/]: A new grave of the player cesarjandres was created at position [x:-22, y:18, z:-4494, dim:minecraft:overworld]
+[08Aug2025 03:58:57.954] [Server thread/INFO] [tombstone/]: The player cesarjandres has successfully been saved
+[08Aug2025 03:58:58.734] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[08Aug2025 03:58:58.764] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[08Aug2025 04:03:58.738] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[08Aug2025 04:03:58.760] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world

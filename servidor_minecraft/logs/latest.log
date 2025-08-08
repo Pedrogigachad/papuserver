@@ -939,3 +939,8 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'createo
 [08Aug2025 03:50:07.627] [ForkJoinPool-3-worker-3/INFO] [me.edoren.skin_changer.common.NetworkUtils/]: File https://playerdb.co/api/player/minecraft/cesarjandres downloaded
 [08Aug2025 03:52:24.101] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cesarjandres was doomed to fall by Cave Spider
 [08Aug2025 03:52:24.103] [Server thread/INFO] [tombstone/]: The player cesarjandres has successfully been saved
+[08Aug2025 03:56:47.451] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: cesarjandres moved too quickly! 5.57449268461108,-1.0,-10.972007928749917
+[08Aug2025 03:56:55.452] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cesarjandres suffocated in a wall
+[08Aug2025 03:56:55.456] [Server thread/INFO] [tombstone/]: The player cesarjandres has successfully been saved
+[08Aug2025 03:58:57.944] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cesarjandres was slain by Fire Dragon
+[08Aug2025 03:58:57.954] [Server thread/INFO] [tombstone/]: The player cesarjandres has successfully been saved
