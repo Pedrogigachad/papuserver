@@ -773,3 +773,5 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'createo
 [08Aug2025 02:56:53.938] [ForkJoinPool-3-worker-1/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loading local skin for player cesarjandres[19a3106c-ae81-3e03-a847-01a4cafc18b7]
 [08Aug2025 02:56:54.056] [ForkJoinPool-3-worker-1/INFO] [me.edoren.skin_changer.common.NetworkUtils/]: File https://playerdb.co/api/player/minecraft/cesarjandres downloaded
 [08Aug2025 02:56:55.823] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2234ms or 44 ticks behind
+[08Aug2025 03:03:04.878] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2989ms or 59 ticks behind
+[08Aug2025 03:07:17.834] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cesarjandres has made the advancement [Glow and Behold!]
