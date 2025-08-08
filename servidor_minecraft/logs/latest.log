@@ -1003,3 +1003,23 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'createo
 [08Aug2025 04:45:39.764] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-270, y=51, z=-4619} BlockPos{x=-268, y=49, z=-4620}
 [08Aug2025 04:45:44.911] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-262, y=51, z=-4621} BlockPos{x=-262, y=50, z=-4621}
 [08Aug2025 04:50:07.071] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: cesarjandres moved too quickly! 2.8687299638602326,9.99514722282639,2.068163258369168
+[08Aug2025 05:11:45.378] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: cesarjandres moved too quickly! -0.7019545693843554,10.581339697681841,0.22194859009414358
+[08Aug2025 05:13:31.948] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: cesarjandres was kicked for floating too long!
+[08Aug2025 05:13:31.999] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: cesarjandres lost connection: Flying is not enabled on this server
+[08Aug2025 05:13:31.999] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cesarjandres left the game
+[08Aug2025 05:13:31.999] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Removing session data for player cesarjandres[19a3106c-ae81-3e03-a847-01a4cafc18b7]
+[08Aug2025 05:13:46.156] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: cesarjandres[/100.106.164.114:64227] logged in with entity id 34909 at (-173.69336175545726, 218.16479185162308, -4494.934194098254)
+[08Aug2025 05:13:46.164] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cesarjandres joined the game
+[08Aug2025 05:13:46.173] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Player cesarjandres just logged in with id 19a3106c-ae81-3e03-a847-01a4cafc18b7
+[08Aug2025 05:13:46.174] [ForkJoinPool-3-worker-5/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loading local skin for player cesarjandres[19a3106c-ae81-3e03-a847-01a4cafc18b7]
+[08Aug2025 05:13:46.282] [ForkJoinPool-3-worker-5/INFO] [me.edoren.skin_changer.common.NetworkUtils/]: File https://playerdb.co/api/player/minecraft/cesarjandres downloaded
+[08Aug2025 05:13:55.435] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: cesarjandres moved too quickly! 0.0,-11.19886200217772,0.0
+[08Aug2025 05:13:56.798] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: cesarjandres was kicked for floating too long!
+[08Aug2025 05:13:56.847] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: cesarjandres lost connection: Flying is not enabled on this server
+[08Aug2025 05:13:56.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cesarjandres left the game
+[08Aug2025 05:13:56.848] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Removing session data for player cesarjandres[19a3106c-ae81-3e03-a847-01a4cafc18b7]
+[08Aug2025 05:14:11.756] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: cesarjandres[/100.106.164.114:64230] logged in with entity id 35148 at (-173.61011175545727, 169.2197080170308, -4494.456694098254)
+[08Aug2025 05:14:11.763] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: cesarjandres joined the game
+[08Aug2025 05:14:11.772] [Server thread/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Player cesarjandres just logged in with id 19a3106c-ae81-3e03-a847-01a4cafc18b7
+[08Aug2025 05:14:11.774] [ForkJoinPool-3-worker-5/INFO] [me.edoren.skin_changer.server.SkinProviderController/]: Loading local skin for player cesarjandres[19a3106c-ae81-3e03-a847-01a4cafc18b7]
+[08Aug2025 05:14:11.835] [ForkJoinPool-3-worker-5/INFO] [me.edoren.skin_changer.common.NetworkUtils/]: File https://playerdb.co/api/player/minecraft/cesarjandres downloaded
