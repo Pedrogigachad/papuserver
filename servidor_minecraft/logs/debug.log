@@ -10244,3 +10244,7 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'createo
 [08Aug2025 06:07:16.917] [ForkJoinPool-3-worker-8/DEBUG] [me.edoren.skin_changer.common.NetworkUtils/]: Downloading file https://playerdb.co/api/player/minecraft/cesarjandres
 [08Aug2025 06:07:17.003] [ForkJoinPool-3-worker-8/INFO] [me.edoren.skin_changer.common.NetworkUtils/]: File https://playerdb.co/api/player/minecraft/cesarjandres downloaded
 [08Aug2025 06:07:17.004] [ForkJoinPool-3-worker-8/DEBUG] [me.edoren.skin_changer.common.NetworkUtils/]: Downloading file https://crafatar.com/capes/cdbf8bc6-77f8-4431-85d2-b99ef3e9a583
+[08Aug2025 06:08:58.730] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[08Aug2025 06:08:58.751] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[08Aug2025 06:13:58.728] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[08Aug2025 06:13:58.749] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
