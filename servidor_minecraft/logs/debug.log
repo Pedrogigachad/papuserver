@@ -7837,3 +7837,11 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'createo
 [09Aug2025 02:21:02.438] [Worker-Main-21/DEBUG] [mixin/]: Mixing accessor.WorldGenRegionAccessor from cataclysm.mixins.json into net.minecraft.server.level.WorldGenRegion
 [09Aug2025 02:21:02.589] [Worker-Main-32/DEBUG] [mixin/]: Mixing accessor.BeardifierAccessor from cataclysm.mixins.json into net.minecraft.world.level.levelgen.Beardifier
 [09Aug2025 02:21:03.084] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2567ms or 51 ticks behind
+[09Aug2025 02:25:08.676] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: There are no players left in the Raid zone!
+[09Aug2025 02:25:08.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: The Faction Nosy Business has won the Raid!
+[09Aug2025 02:25:21.020] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[09Aug2025 02:25:21.041] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[09Aug2025 02:30:21.017] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[09Aug2025 02:30:21.037] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[09Aug2025 02:30:37.607] [Server thread/DEBUG] [mixin/]: Mixing ArmorTrimMixin from create.mixins.json into net.minecraft.world.item.armortrim.ArmorTrim
+[09Aug2025 02:30:37.608] [Server thread/DEBUG] [mixin/]: Renaming synthetic method lambda$new$0(Ljava/lang/Boolean;Lnet/minecraft/world/item/ArmorMaterial;)Lnet/minecraft/resources/ResourceLocation; to mdb6e873$lambda$new$0$0 in create.mixins.json:ArmorTrimMixin

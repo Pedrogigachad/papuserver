@@ -772,3 +772,5 @@ com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'createo
 [09Aug2025 02:17:39.367] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: The Faction Nosy Business has started a raid at BlockPos{x=924, y=101, z=-4062}!
 [09Aug2025 02:18:39.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Cars0325 has completed the challenge [Village Defender]
 [09Aug2025 02:21:03.084] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2567ms or 51 ticks behind
+[09Aug2025 02:25:08.676] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: There are no players left in the Raid zone!
+[09Aug2025 02:25:08.677] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: The Faction Nosy Business has won the Raid!
